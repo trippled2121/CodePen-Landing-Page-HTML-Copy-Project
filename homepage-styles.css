@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #1e2124;
+}
+
+/* Main Feature Styles */
+.main-feature {
+    padding-top: 40px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(137deg, #5a6472, black);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: inset -9px -169px 100px 43px rgba(0,0,0,0.39);
+}
+
+.main-feature > .left-side {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.main-feature > .left-side > .text > .paragraph-one p {
+    margin: 0px;
+    padding: 16px 0px;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.main-feature > .left-side > .text > .paragraph-two p {
+    color: lightgrey;
+    font-size: 2em;
+}
+
+.main-feature > .left-side > .buttons {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    font-weight: 900;
+    font-size: 2em;
+    display: flex;
+}
+
+.main-feature > .left-side > .buttons > .main-button-one {
+    margin-right: 10px;
+    padding: 15px 20px;
+    border-radius: 3px;
+    background-color: mediumseagreen;
+    color: black;
+}
+
+.main-feature > .left-side > .buttons > .main-button-two {
+    padding: 15px 20px;
+    border-radius: 3px;
+    background-color: black;
+}
+
+.main-feature > .right-side > .text > .code-snipet-label {
+    color: cyan;
+}
+
+.main-feature > .right-side > .code-snipet img {
+    padding-top: 5px;
+    width: 700px;
+    height: 100%;
+}
+
+/* Bottom Selecton Styles */
+.bottom-selection {
+    width: 100%;
+    background-color: 	#1e2124;
+    color: white;
+}
+
+.bottom-selection > .selection-divider {
+    display: flex;
+}
+
+.bottom-selection > .selection-divider > .selection {
+    margin: 0px;
+    border: 1px solid lightgrey;
+    padding: 16px;
+    width: 100%;
+    background-color: #36393e;
+    text-align: center;
+}
+
+.bottom-selection > .selection-divider > .selection span.selection-subject {
+    font-size: 1.5em;
+    font-weight: 900;
+}
